@@ -14,13 +14,15 @@ export function Director() {
       aria-labelledby="director-title"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[85vh]">
-        <FadeUp className="relative min-h-[55vh] lg:min-h-full order-1">
+        <FadeUp className="relative min-h-[55vh] lg:min-h-full order-1 overflow-hidden">
           <Image
             src={DIRECTOR.image}
             alt={DIRECTOR.name}
             fill
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            className="object-cover object-center img-tone"
+            sizes="(max-width: 1024px) 100vw, 900px"
+            className="object-cover object-[50%_22%] md:object-[48%_18%] img-tone"
+            quality={95}
+            priority
           />
         </FadeUp>
 

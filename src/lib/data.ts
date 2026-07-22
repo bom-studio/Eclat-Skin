@@ -54,24 +54,40 @@ export const BEFORE_AFTER = [
     treatment: "톤 개선",
     duration: "4주 관리",
     concern: "칙긋한 피부톤을 맑고 균일하게",
-    before: "/images/results/tone-before.png",
-    after: "/images/results/tone-after.png",
+    before: "/images/results/result-01-before.png",
+    after: "/images/results/result-01-after.png",
   },
   {
     id: 2,
-    treatment: "탄력 케어",
-    duration: "6주 관리",
-    concern: "처진 피부를 탄탄하고 건강하게",
-    before: "/images/results/lift-before.png",
-    after: "/images/results/lift-after.png",
+    treatment: "피부결 케어",
+    duration: "5주 관리",
+    concern: "거칠어진 피부결을 매끄럽게",
+    before: "/images/results/result-02-before.png",
+    after: "/images/results/result-02-after.png",
   },
   {
     id: 3,
+    treatment: "광채 케어",
+    duration: "4주 관리",
+    concern: "칙은 피부에 건강한 광채를",
+    before: "/images/results/result-03-before.png",
+    after: "/images/results/result-03-after.png",
+  },
+  {
+    id: 4,
+    treatment: "탄력 케어",
+    duration: "6주 관리",
+    concern: "처진 피부를 탄탄하고 건강하게",
+    before: "/images/results/result-04-before.png",
+    after: "/images/results/result-04-after.png",
+  },
+  {
+    id: 5,
     treatment: "수분 충전",
     duration: "3주 관리",
     concern: "건조한 피부에 깊은 보습을 채우다",
-    before: "/images/results/moisture-before.png",
-    after: "/images/results/moisture-after.png",
+    before: "/images/results/result-05-before.png",
+    after: "/images/results/result-05-after.png",
   },
 ] as const;
 
@@ -204,7 +220,7 @@ export const STATS = [
 export const DIRECTOR = {
   name: "김에끌",
   role: "대표 원장 · ÉCLAT SKIN STUDIO",
-  image: "/images/director/doctor.png",
+  image: "/images/director/girl_doctor.png",
   intro:
     "피부의 균형을 존중하는 섬세한 케어로, 과하지 않은 아름다움을 완성합니다. 고객 한 분 한 분의 피부 결을 읽고, 가장 자연스러운 변화를 설계합니다.",
   philosophy:
@@ -248,7 +264,7 @@ export const PROGRAMS = [
     price: "79,000",
     description: "건조한 피부에 깊은 수분과 편안함을 채우는 케어",
     effects: ["수분 충전", "장벽 케어", "진정 관리"],
-    image: "/images/programs/hydration-care.png",
+    image: "/images/programs/hydration.png",
     imageAlt: "하이드레이션 프로그램",
   },
   {
@@ -259,7 +275,7 @@ export const PROGRAMS = [
     price: "129,000",
     description: "피부톤과 광채를 동시에 개선하는 대표 프로그램",
     effects: ["피부톤 개선", "광채 부여", "피부결 정돈"],
-    image: "/images/programs/signature-glow.png",
+    image: "/images/programs/signature.png",
     imageAlt: "시그니처 글로우 프로그램",
   },
 ] as const;

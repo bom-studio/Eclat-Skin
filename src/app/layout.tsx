@@ -46,6 +46,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "\u00C9CLAT SKIN STUDIO" }],
   creator: "\u00C9CLAT SKIN STUDIO",
+  icons: {
+    icon: [{ url: "/images/favicon.png", type: "image/png", sizes: "512x512" }],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     locale: "ko_KR",
@@ -56,7 +61,13 @@ export const metadata: Metadata = {
       "\uB2F9\uC2E0\uB9CC\uC758 \uACB0\uC744 \uC874\uC911\uD558\uB294 \uD504\uB9AC\uBBF8\uC5C4 \uC2A4\uD0A8 \uC2A4\uD29C\uB514\uC624. \uC9C0\uAE08 \uC0C1\uB2F4\uC744 \uC608\uC57D\uD558\uC138\uC694.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1200&q=80",
+        url: "/images/oz.png",
+        width: 1358,
+        height: 1159,
+        alt: "\u00C9CLAT SKIN STUDIO",
+      },
+      {
+        url: "/images/og.png",
         width: 1200,
         height: 630,
         alt: "\u00C9CLAT SKIN STUDIO",
@@ -68,9 +79,7 @@ export const metadata: Metadata = {
     title: "\u00C9CLAT SKIN STUDIO | \uD504\uB9AC\uBBF8\uC5C4 \uD53C\uBD80\uAD00\uB9AC\uC0F5",
     description:
       "\uB2F9\uC2E0\uB9CC\uC758 \uACB0\uC744 \uC874\uC911\uD558\uB294 \uD504\uB9AC\uBBF8\uC5C4 \uC2A4\uD0A8 \uC2A4\uD29C\uB514\uC624. \uC9C0\uAE08 \uC0C1\uB2F4\uC744 \uC608\uC57D\uD558\uC138\uC694.",
-    images: [
-      "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1200&q=80",
-    ],
+    images: ["/images/oz.png"],
   },
   robots: {
     index: true,
