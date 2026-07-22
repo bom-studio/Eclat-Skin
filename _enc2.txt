@@ -1,0 +1,25 @@
+app\layout.tsx len=2725 bom=b'impo' FAIL UnicodeDecodeError
+app\page.tsx len=1521 bom=b'impo' UTF8 hangul=0
+components\BeforeAfter.tsx len=3673 bom=b'"use' FAIL UnicodeDecodeError
+components\BestProgram.tsx len=3721 bom=b'"use' FAIL UnicodeDecodeError
+components\BookingCTA.tsx len=2708 bom=b'"use' FAIL UnicodeDecodeError
+components\Differences.tsx len=2114 bom=b'"use' CP949 hangul=23 FIXED_CP949_TO_UTF8
+components\Director.tsx len=4268 bom=b'"use' CP949 hangul=25 FIXED_CP949_TO_UTF8
+components\EventBanner.tsx len=2340 bom=b'"use' CP949 hangul=7 FIXED_CP949_TO_UTF8
+components\FAQ.tsx len=3211 bom=b'"use' CP949 hangul=17 FIXED_CP949_TO_UTF8
+components\Footer.tsx len=5436 bom=b'impo' FAIL UnicodeDecodeError
+components\Header.tsx len=7564 bom=b'"use' CP949 hangul=25 FIXED_CP949_TO_UTF8
+components\Hero.tsx len=5366 bom=b'"use' CP949 hangul=8 FIXED_CP949_TO_UTF8
+components\InstagramGallery.tsx len=2825 bom=b'"use' FAIL UnicodeDecodeError
+components\Location.tsx len=5445 bom=b'"use' FAIL UnicodeDecodeError
+components\MobileBookingBar.tsx len=737 bom=b'"use' CP949 hangul=3
+components\motion\FadeUp.tsx len=824 bom=b'"use' UTF8 hangul=0
+components\Pricing.tsx len=5904 bom=b'"use' FAIL UnicodeDecodeError
+components\Reviews.tsx len=4857 bom=b'"use' CP949 hangul=21 FIXED_CP949_TO_UTF8
+components\ScrollProgress.tsx len=462 bom=b'"use' UTF8 hangul=0
+components\SocialProof.tsx len=2343 bom=b'"use' FAIL UnicodeDecodeError
+components\Treatments.tsx len=2148 bom=b'"use' FAIL UnicodeDecodeError
+components\ui\Button.tsx len=2055 bom=b'"use' UTF8 hangul=0
+components\ui\Icons.tsx len=7748 bom=b'type' UTF8 hangul=0
+components\ui\SectionHeading.tsx len=1457 bom=b'impo' UTF8 hangul=0
+lib\data.ts len=13414 bom=b'expo' FAIL UnicodeDecodeError
