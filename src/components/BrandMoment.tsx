@@ -21,14 +21,21 @@ export function BrandMoment({ image, caption, alt }: BrandMomentProps) {
           alt={alt ?? caption}
           fill
           sizes="100vw"
-          className="object-cover img-tone scale-105"
+          className="object-cover img-tone"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(43,43,43,0.45)] via-[rgba(43,43,43,0.12)] to-transparent" />
+        <div
+          aria-hidden
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to top, rgba(43,43,43,0.42) 0%, rgba(43,43,43,0.12) 38%, transparent 68%)",
+          }}
+        />
       </div>
 
       <div className="container-main relative z-10 pb-16 md:pb-24 lg:pb-28">
         <FadeUp>
-          <p className="font-display text-[28px] md:text-[40px] lg:text-[48px] leading-[1.25] tracking-[-0.03em] text-white max-w-xl">
+          <p className="font-display text-[28px] md:text-[40px] lg:text-[48px] leading-[1.25] tracking-[-0.03em] text-white max-w-xl whitespace-pre-line">
             {caption}
           </p>
         </FadeUp>

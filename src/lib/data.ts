@@ -389,15 +389,9 @@ export const HERO = {
 export const BRAND_MOMENTS = [
   {
     id: "radiance",
-    image: "/images/results/tone-after.png",
-    caption: "피부 본연의 빛을 되찾는 시간",
-  },
-  {
-    id: "ritual",
-    image: "/images/results/moisture-before.png",
-    caption: "과하지 않은 케어, 절제된 아름다움",
+    image: "/images/beauty.png",
+    caption: "피부 본연의\n빛을 되찾는 시간",
   },
 ] as const;
 
-export const BOOKING_IMAGE =
-  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=2000&q=85";
+export const BOOKING_IMAGE = "/images/time.png";

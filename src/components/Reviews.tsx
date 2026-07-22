@@ -25,7 +25,7 @@ export function Reviews() {
       <div className="container-main">
         <div className="flex items-end justify-between gap-6 mb-16 md:mb-24">
           <FadeUp>
-            <p className="eyebrow mb-6">STORIES</p>
+            <p className="eyebrow mb-6">Reivews</p>
             <h2 id="reviews-title" className="display-section text-text">
               Voices of {"\u00C9"}CLAT
             </h2>

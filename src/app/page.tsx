@@ -31,10 +31,6 @@ export default function HomePage() {
           caption={BRAND_MOMENTS[0].caption}
         />
         <Pricing />
-        <BrandMoment
-          image={BRAND_MOMENTS[1].image}
-          caption={BRAND_MOMENTS[1].caption}
-        />
         <BeforeAfter />
         <Director />
         <Reviews />

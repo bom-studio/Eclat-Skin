@@ -12,10 +12,10 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-[94vh] lg:min-h-[100svh] flex flex-col justify-center pt-[88px] overflow-hidden"
+      className="relative min-h-[94vh] lg:min-h-[100svh] flex flex-col justify-center pt-[92px] overflow-hidden"
       aria-labelledby="hero-title"
     >
-      {/* Warm white atmosphere — soft radial light only */}
+      {/* Warm white atmosphere ? soft radial light only */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 z-0"
@@ -109,9 +109,9 @@ export function Hero() {
             </motion.ul>
           </div>
 
-          {/* Visual — model as hero object, not a floating card */}
+          {/* Visual ? model as hero object, not a floating card */}
           <div className="relative order-2 w-full h-[min(58vh,500px)] md:h-[min(80vh,760px)] lg:h-[min(86vh,840px)] self-stretch md:-ml-6 lg:-ml-10 xl:-ml-14">
-            {/* Cream glow behind image — nearly invisible, large blur */}
+            {/* Cream glow behind image ? nearly invisible, large blur */}
             <div
               aria-hidden
               className="pointer-events-none absolute -inset-[12%] z-0 rounded-full blur-[160px] md:blur-[180px] opacity-80"
@@ -138,45 +138,7 @@ export function Hero() {
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 60vw, 55vw"
-                className="object-cover object-[60%_18%] md:object-[66%_16%] lg:object-[68%_14%] img-tone"
-              />
-
-              {/* Desktop: horizontal fade into warm background */}
-              <div
-                aria-hidden
-                className="absolute inset-y-0 left-0 hidden md:block w-[28%] lg:w-[24%]"
-                style={{
-                  background:
-                    "linear-gradient(to right, var(--color-background) 0%, color-mix(in srgb, var(--color-background) 65%, transparent) 40%, transparent 100%)",
-                }}
-              />
-
-              {/* Mobile: vertical fade from text above */}
-              <div
-                aria-hidden
-                className="absolute inset-x-0 top-0 h-[28%] md:hidden"
-                style={{
-                  background:
-                    "linear-gradient(to bottom, var(--color-background) 0%, color-mix(in srgb, var(--color-background) 55%, transparent) 45%, transparent 100%)",
-                }}
-              />
-
-              {/* Soft top/bottom wash — desktop only, subtle */}
-              <div
-                aria-hidden
-                className="absolute inset-x-0 top-0 hidden md:block h-[10%]"
-                style={{
-                  background:
-                    "linear-gradient(to bottom, color-mix(in srgb, var(--color-background) 40%, transparent) 0%, transparent 100%)",
-                }}
-              />
-              <div
-                aria-hidden
-                className="absolute inset-x-0 bottom-0 h-[12%]"
-                style={{
-                  background:
-                    "linear-gradient(to top, color-mix(in srgb, var(--color-background) 30%, transparent) 0%, transparent 100%)",
-                }}
+                className="object-cover object-[78%_42%] md:object-[82%_40%] lg:object-[85%_38%] img-tone"
               />
             </motion.div>
           </div>

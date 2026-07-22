@@ -86,7 +86,7 @@ export function Location() {
                   </div>
                   <a
                     href={STUDIO_INFO.phoneHref}
-                    className="text-[16px] text-text hover:text-primary transition-colors duration-300 pl-[58px] block"
+                    className="text-[16px] text-text hover:text-primary transition-colors duration-300 pl-[58px] block whitespace-nowrap"
                   >
                     {STUDIO_INFO.phone}
                   </a>
